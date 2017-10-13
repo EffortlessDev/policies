@@ -15,8 +15,8 @@ so_name: "David Reid"
 so_email: dreid@effortlessadmin.com
 
 # President & CEO
-so_name: "David Ross"
-so_email: dross@effortlessadmin.com
+president_name: "David Ross"
+president_email: dross@effortlessadmin.com
 
 # CTO
 cto_name: "David Reid"
@@ -38,6 +38,9 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-github-metadata
+
+kramdown:
+  auto_ids: false
 
 # SASS
 sass:
