@@ -1,0 +1,78 @@
+.MarkdownBody {
+    code,
+    tt {
+        margin: 0;
+        border-radius: 3px;
+        padding: 0;
+        padding-top: 0.2em;
+        padding-bottom: 0.2em;
+        font-size: 85%;
+        background-color: rgba($black, 0.05);
+
+        &::before,
+        &::after {
+            letter-spacing: -0.2em; // this creates padding
+            content: "\00a0";
+        }
+
+        br {
+            display: none;
+        }
+    }
+
+    del code {
+        text-decoration: inherit;
+    }
+
+    pre {
+        word-wrap: normal;
+
+        // Code tags within code blocks (<pre>s)
+        > code {
+            margin: 0;
+            border: 0;
+            padding: 0;
+            font-size: 100%;
+            white-space: pre;
+            word-break: normal;
+            background: transparent;
+        }
+    }
+
+    .highlight {
+        margin-bottom: $spacer-3;
+
+        pre {
+            margin-bottom: 0;
+            word-break: normal;
+        }
+    }
+
+    .highlight pre,
+    pre {
+        overflow: auto;
+        border-radius: 3px;
+        padding: $spacer-3;
+        font-size: 85%;
+        line-height: 1.45;
+        background-color: $gray-100;
+    }
+
+    pre code,
+    pre tt {
+        display: inline;
+        overflow: visible;
+        margin: 0;
+        border: 0;
+        padding: 0;
+        max-width: auto;
+        line-height: inherit;
+        word-wrap: normal;
+        background-color: transparent;
+
+        &::before,
+        &::after {
+            content: normal;
+        }
+    }
+}

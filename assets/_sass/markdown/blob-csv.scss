@@ -1,0 +1,29 @@
+.MarkdownBody {
+    .csv-data {
+        td, th {
+            overflow: hidden;
+            padding: 5px;
+            font-size: $font-size-small;
+            text-align: left;
+            line-height: $lh-condensed-ultra;
+            white-space: nowrap;
+        }
+
+        .blob-num {
+            border: 0;
+            padding: 10px $spacer-2 9px;
+            text-align: right;
+            background: $bg-white;
+        }
+
+        tr {
+            border-top: 0;
+        }
+
+        th {
+            border-top: 0;
+            font-weight: $font-weight-bold;
+            background: $gray-100;
+        }
+    }
+}

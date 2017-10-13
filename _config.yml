@@ -12,7 +12,6 @@ redirects: yes
 # Build settings
 markdown: kramdown
 highlighter: rouge
-theme: jekyll-theme-primer
 plugins:
   - jekyll-feed
   - jekyll-seo-tag

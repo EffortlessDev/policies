@@ -1,0 +1,30 @@
+.MarkdownBody {
+    table {
+        display: block;
+        overflow: auto;
+        width: 100%;
+
+        th {
+            font-weight: $font-weight-bold;
+        }
+
+        th,
+        td {
+            border: 1px solid lighten($gray-300, 5%);
+            padding: 6px 13px;
+        }
+
+        tr {
+            border-top: 1px solid darken($gray-300, 4%);
+            background-color: $bg-white;
+
+            &:nth-child(2n) {
+                background-color: $gray-100;
+            }
+        }
+
+        img {
+            background-color: transparent;
+        }
+    }
+}

@@ -1,9 +1,9 @@
 body {
     overflow: hidden;
 }
-.ChapterWrapper {
+.MarkdownWrapper {
     overflow-y: scroll;
-    .Chapter {
+    .MarkdownBody {
         max-width: 1000px;
     }
 }

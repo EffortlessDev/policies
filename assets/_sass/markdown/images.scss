@@ -1,0 +1,109 @@
+.MarkdownBody {
+    img {
+        box-sizing: content-box;
+        max-width: 100%;
+        background-color: $bg-white;
+
+        &[align=right] {
+            padding-left: 20px;
+        }
+
+        &[align=left] {
+            padding-right: 20px;
+        }
+    }
+
+    .emoji {
+        max-width: none;
+        vertical-align: text-top;
+        background-color: transparent;
+    }
+
+    span.frame {
+        display: block;
+        overflow: hidden;
+
+        > span {
+            display: block;
+            float: left;
+            overflow: hidden;
+            margin: 13px 0 0;
+            border: 1px solid lighten($gray-300, 5%);
+            padding: 7px;
+            width: auto;
+        }
+
+        span img {
+            display: block;
+            float: left;
+        }
+
+        span span {
+            display: block;
+            clear: both;
+            padding: 5px 0 0;
+            color: $text-gray-dark;
+        }
+    }
+
+    span.align-center {
+        display: block;
+        clear: both;
+        overflow: hidden;
+
+        > span {
+            display: block;
+            overflow: hidden;
+            margin: 13px auto 0;
+            text-align: center;
+        }
+
+        span img {
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    span.align-right {
+        display: block;
+        clear: both;
+        overflow: hidden;
+
+        > span {
+            display: block;
+            overflow: hidden;
+            margin: 13px 0 0;
+            text-align: right;
+        }
+
+        span img {
+            margin: 0;
+            text-align: right;
+        }
+    }
+
+    span.float-left {
+        display: block;
+        float: left;
+        overflow: hidden;
+        margin-right: 13px;
+
+        span {
+            margin: 13px 0 0;
+        }
+    }
+
+    span.float-right {
+        display: block;
+        float: right;
+        overflow: hidden;
+        margin-left: 13px;
+
+        > span {
+            display: block;
+            overflow: hidden;
+            margin: 13px auto 0;
+            text-align: right;
+        }
+    }
+}

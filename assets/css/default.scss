@@ -1,7 +1,8 @@
 ---
 # Define site specific styles below
 ---
-@import "theme_override";
-@import "home";
 @import "header";
+@import "home";
+@import "markdown";
+@import "reset";
 @import "sidebar";

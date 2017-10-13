@@ -4,7 +4,7 @@ defaultPage.resize = function() {
     var sidebarPadding = 40,
         newHeight = $(window).height() - $(".HeaderWrapper").outerHeight();
     $(".SidebarWrapper").height(newHeight - sidebarPadding);
-    $(".ChapterWrapper").height(newHeight);
+    $(".MarkdownWrapper").height(newHeight);
 }
 
 $(document).ready(function() {
