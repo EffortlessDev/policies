@@ -3,7 +3,7 @@ email: security@effortlessadmin.com
 description: >-
   The following addresses core policies used by EA to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for EA Customers.
 keywords: Security, Compliance, Software, Infrastructure, Documentation
-baseurl: "/"
+baseurl: "/policies"
 url: "http://localhost:4000/"
 twitter_username: effortlessdev
 github_username:  effortlessdev
