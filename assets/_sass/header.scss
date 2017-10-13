@@ -1,5 +1,5 @@
 $height: 120px;
-$leftColumnWidth: 180px;
+$leftColumnWidth: 200px;
 
 .HeaderWrapper {
     overflow: hidden;
@@ -11,8 +11,8 @@ $leftColumnWidth: 180px;
         a.HeaderLogo {
             padding-left: 20px;
             img {
-                width: $leftColumnWidth - 40px;
                 padding-top: 35px;
+                width: $leftColumnWidth - 40px;
             }
         }
     }
@@ -23,23 +23,23 @@ $leftColumnWidth: 180px;
     }
     .HeaderCenterColumn {
         margin-left: $leftColumnWidth;
+        border-bottom: solid 1px #e0e0e0;
         padding-left: 20px;
         height: $height - 1px;
-        border-bottom: solid 1px #e0e0e0;
         background-color: #eff1f2;
         h1 {
             margin: 0 0 15px 0;
             padding-top: 20px;
             padding-right: 34px;
             color: #616163;
-            font-weight: normal;
             font-size: 18pt;
+            font-weight: normal;
             font-weight: 400;
         }
         h2 {
             margin: 10px 0;
-            font-weight: normal;
             font-size: 11pt;
+            font-weight: normal;
             font-weight: 500;
         }
     }

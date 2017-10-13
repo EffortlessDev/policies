@@ -6,4 +6,12 @@ body {
     .MarkdownBody {
         max-width: 1000px;
     }
+    .ButtonBar {
+        margin: 40px 30px;
+        max-width: 1000px;
+        text-align: right;
+        a.Button {
+            margin-left: 10px;
+        }
+    }
 }

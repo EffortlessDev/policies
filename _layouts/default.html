@@ -10,6 +10,26 @@
         <div class="MarkdownBody">
             {{ content }}
         </div>
+        <div class="ButtonBar">
+            {% for chapter in site.chapters %}
+                {% if page.url == chapter.url %}
+                    {% assign prev_chapter = chapter.previous %}
+                    {% assign next_chapter = chapter.next %}
+                {% endif %}
+            {% endfor %}
+
+            {% if prev_chapter %}
+            <a class="Button Large" href="{{ site.baseurl }}{{ prev_chapter.url }}">
+                < Previous
+            </a>
+            {% endif %}
+
+            {% if next_chapter %}
+            <a class="Button Large" href="{{ site.baseurl }}{{ next_chapter.url }}">
+                Next >
+            </a>
+            {% endif %}
+        </div>
     </div>
 
     {% include scripts.html %}

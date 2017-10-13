@@ -1,0 +1,139 @@
+
+a.Button {
+    display: inline-block;
+    border: solid 1px #1a99d6;
+    border-radius: 3px;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 11pt;
+    font-weight: 300;
+    text-decoration: none;
+    background-color: #1a99d6;
+    cursor: pointer;
+	-moz-transition: background 0.2s ease-in-out, border 0.2s ease-in-out;
+	-o-transition: background 0.2s ease-in-out, border 0.2s ease-in-out;
+	-webkit-transition: background 0.2s ease-in-out, border 0.2s ease-in-out;
+	transition: background 0.2s ease-in-out, border 0.2s ease-in-out;
+}
+
+    a.Button.Secondary {
+        border: Solid 1px #1a99d6;
+        color: #ffffff;
+        text-shadow: none;
+        background-color: #1a99d6;
+    }
+
+        a.Button.Secondary:hover {
+            color: #ffffff !important;
+            background-color: #0a83be;
+        }
+
+    a.Button.Large {
+        padding: 15px 30px;
+        font-size: 13pt;
+        font-weight: 300;
+    }
+
+    a.Button.Small {
+        padding: 10px 15px;
+        font-size: 10pt;
+        line-height: 10px;
+    }
+
+    a.Button.ExtraSmall {
+        padding: 6px 8px;
+        font-size: 10pt;
+        line-height: 11px;
+    }
+
+    a.Button:hover,
+    a.SearchButton:hover {
+        border-color: #0a83be;
+        color: #ffffff;
+        background-color: #0a83be;
+    }
+
+    a.Button:active,
+    a.SearchButton:active {
+        border-color: #0a83be;
+        background-color: #0a83be;
+        -moz-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+        -webkit-box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+        box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.15), 0 1px 2px rgba(0, 0, 0, 0.05);
+        outline: none;
+
+        ie-dummy: expression(this.hideFocus=true);
+    }
+
+    a.Button:focus,
+    a.SearchButton:focus {
+        outline: none;
+
+        ie-dummy: expression(this.hideFocus=true);
+    }
+
+    a.Button.Submit {
+        border: Solid 1px #6ebe44;
+        color: #ffffff;
+        background-color: #6ebe44;
+    }
+
+        a.Button.Submit:hover {
+            border: solid 1px #1a99d6;
+            color: #ffffff;
+            background-color: #1a99d6;
+        }
+
+    a.Button.Critical {
+        border: Solid 1px #d03a3a;
+        color: #ffffff;
+        background-color: #d03a3a;
+    }
+
+        a.Button.Critical:hover {
+            border: solid 1px #bd2a2a;
+            color: #ffffff;
+            background-color: #bd2a2a;
+        }
+
+    a.Button.Disabled,
+    a.Button.Disabled:hover,
+    a.Button.Disabled:active,
+    a.Button.Disabled:focus {
+        border: Solid 1px #e0e0e0;
+        color: #8c8c8c !important;
+        text-shadow: none;
+        background-color: #e0e0e0;
+        -moz-box-shadow: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        cursor: default;
+    }
+
+    a.Button.DropDown,
+    a.Button.DropDown2 {
+        padding-right: 32px;
+        background-position: right center;
+        background-repeat: no-repeat;
+    }
+
+    a.Button.Small.DropDown,
+    a.Button.Small.DropDown2 {
+        padding-right: 24px;
+    }
+
+    a.Button.DropDown {
+        background-image: url(DropDownButtonArrow.png);
+    }
+
+        a.Button.DropDown.Disabled {
+            background-image: url(DropDownButtonArrow-dis.png);
+        }
+
+    a.Button.DropDown2 {
+        background-image: url(DropDownButtonArrow2.png);
+    }
+
+        a.Button.DropDown2.Disabled {
+            background-image: url(DropDownButtonArrow2-dis.png);
+        }
