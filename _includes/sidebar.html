@@ -1,0 +1,11 @@
+<div class="SidebarWrapper">
+    <ul class="Sidebar">
+        {% for chapter in site.chapters %}
+        <li>
+            <a class="{% if page.url == chapter.url %}ActiveSidebarItem{% endif %}" href="{{ chapter.url }}">
+                {{ chapter.title }}
+            </a>
+        </li>
+        {% endfor %}
+    </div>
+</div>

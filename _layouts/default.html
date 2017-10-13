@@ -1,7 +1,21 @@
-{% include head.html %}
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
+{% include html-head.html %}
+<body>
+    {% include header.html %}
 
-    <h1>{{ page.title }}</h1>
+    {% include sidebar.html %}
 
-    {{ content }}
+    <div class="ChapterWrapper">
+        <div class="Chapter">
+            <div class="container-lg px-3 my-5 markdown-body">
+                {{ content }}
+            </div>
+        </div>
+    </div>
 
-{% include foot.html %}
+    {% include scripts.html %}
+
+    <!-- TODO: add google analytics -->
+</body>
+</html>

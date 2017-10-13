@@ -1,0 +1,46 @@
+$height: 120px;
+$leftColumnWidth: 180px;
+
+.HeaderWrapper {
+    overflow: hidden;
+    width: 100%;
+    .Header,
+    .HeaderLeftColumn,
+    .HeaderRightColumn {
+        height: $height;
+        a.HeaderLogo {
+            padding-left: 20px;
+            img {
+                width: $leftColumnWidth - 40px;
+                padding-top: 35px;
+            }
+        }
+    }
+    .HeaderLeftColumn {
+        float: left;
+        width: $leftColumnWidth;
+        background-color: #39393c;
+    }
+    .HeaderCenterColumn {
+        margin-left: $leftColumnWidth;
+        padding-left: 20px;
+        height: $height - 1px;
+        border-bottom: solid 1px #e0e0e0;
+        background-color: #eff1f2;
+        h1 {
+            margin: 0 0 15px 0;
+            padding-top: 20px;
+            padding-right: 34px;
+            color: #616163;
+            font-weight: normal;
+            font-size: 18pt;
+            font-weight: 400;
+        }
+        h2 {
+            margin: 10px 0;
+            font-weight: normal;
+            font-size: 11pt;
+            font-weight: 500;
+        }
+    }
+}

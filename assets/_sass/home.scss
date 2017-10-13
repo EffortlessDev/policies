@@ -1,0 +1,9 @@
+body {
+    overflow: hidden;
+}
+.ChapterWrapper {
+    overflow-y: scroll;
+    .Chapter {
+        max-width: 1000px;
+    }
+}

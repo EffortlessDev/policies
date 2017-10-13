@@ -1,0 +1,36 @@
+.SidebarWrapper {
+    position: relative;
+    z-index: 1;
+    float: left;
+    padding: 20px 0;
+    width: 180px;
+    background: #1a99d6;
+    height: 1000px; // Make it really tall to avoid initial flickering
+    ul.Sidebar {
+        li {
+            a {
+                display: block;
+                overflow: hidden;
+                padding: 14px 25px 14px 20px;
+                text-decoration: none;
+                -ms-text-overflow: ellipsis;
+                -o-text-overflow: ellipsis;
+                text-overflow: ellipsis;
+                white-space: nowrap;
+                color: #8cccea;
+                font-size: 10pt;
+                font-weight: 700;
+                cursor: pointer;
+                text-transform: uppercase;
+            }
+            a.ActiveSidebarItem:hover {
+                background-color: #128eca;
+            }
+            a.ActiveSidebarItem,
+            a.ActiveSidebarItem:hover {
+                background: #0a83be;
+                color: #fff;
+            }
+        }
+    }
+}
