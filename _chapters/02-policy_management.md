@@ -13,7 +13,7 @@ EA implements policies and procedures to maintain compliance and integrity of da
     1. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
     1. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
     1. If the policy change requires technical modifications to production systems, those changes are carried out by authorized personnel using EA's change management process.
-1. All policies are made accessible to all EA workforce members. The current master policies are published at https://policy.effortlessadmin.com.
+1. All policies are made accessible to all EA workforce members. The current master policies are published at [{{site.production_url}}]({{site.production_url}}).
     1. Changes are automatically communicated to all EA team members through integrations between GitHub and Slack that log all GitHub policy channels to a dedicated EA Slack Channel.
     1. The Security Officer also communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience.
 1. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
@@ -21,7 +21,7 @@ EA implements policies and procedures to maintain compliance and integrity of da
     1. Backup storage of all policies is done with Box.
 1. The policies and information security policies are reviewed and audited annually, or after significant changes occur to EA's organizational environment. Issues that come up as part of this process are reviewed by EA management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing policies is outlined below:
     1. The Security Officer initiates the policy review by creating an Issue in the Asana Compliance Review Activity (CRA) project.
-    1. The Security Officer or the Privacy Officer is assigned to review the current EA policies (https://policy.effortlessadmin.com/).
+    1. The Security Officer or the Privacy Officer is assigned to review the current EA policies [({{site.production_url}})]({{site.production_url}}).
     1. If changes are made, the above process is used. All changes are documented in the Issue.
     1. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
     1. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.

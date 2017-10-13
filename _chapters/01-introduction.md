@@ -37,4 +37,4 @@ The following process is used to request audit reports:
 1. If the Issue has been Approved, EA will send the customer the requested audit report and complete the Asana Issue for the request.
 
 ## ​1.5​ Version Control
-Refer to the GitHub repository for the full version history of these policies.
+Refer to the GitHub repository [({{site.git_url}})]({{site.git_url}}) for the full version history of these policies.

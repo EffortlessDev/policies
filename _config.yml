@@ -1,22 +1,42 @@
+# Custom properties
 title: EA Security Policies
-email: security@effortlessadmin.com
 description: >-
   The following addresses core policies used by EA to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for EA Customers.
 keywords: Security, Compliance, Software, Infrastructure, Documentation
+production_url: "https://effortlessdev.github.io/policies/"
+git_url: "https://github.com/EffortlessDev/policies"
+
+# Privacy officer
+po_name: "Michael Ross"
+po_email: mross@effortlessadmin.com
+
+# Security officer
+so_name: "David Reid"
+so_email: dreid@effortlessadmin.com
+
+# President & CEO
+so_name: "David Ross"
+so_email: dross@effortlessadmin.com
+
+# CTO
+cto_name: "David Reid"
+cto_email: dreid@effortlessadmin.com
+
+# Generic emails
+security_email: privacy@effortlessadmin.com
+password_reset_email: password-reset@effortlessadmin.com
+
+# Serving
 baseurl: "/policies"
 url: "http://localhost:4000/"
-twitter_username: effortlessdev
-github_username:  effortlessdev
 redirects: yes
 
-# Build settings
+# Conversion
 markdown: kramdown
 highlighter: rouge
 plugins:
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
-  - jekyll-avatar
   - jekyll-github-metadata
 
 # SASS
@@ -28,7 +48,6 @@ collections:
   chapters:
     output: true
     permalink: /chapters/:path/
-
 defaults:
   -
     scope:
@@ -38,6 +57,7 @@ defaults:
       hidden: true
       layout: default
 
+# Exclusions
 exclude:
   - Gemfile
   - Gemfile.lock
