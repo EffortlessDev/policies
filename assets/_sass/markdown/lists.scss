@@ -73,6 +73,10 @@
         margin-top: $spacer-3;
     }
 
+    li:last-child {
+        margin-bottom: $spacer-3;
+    }
+
     dl {
         padding: 0;
 
