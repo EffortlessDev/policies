@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: en }}">
+{% include html-head.html %}
+<body class="Printable">
+    <div id="PageContent">
+        <div id="CoverPage">
+            <img src="{{ '/assets/img/logo.svg' | relative_url }}">
+            <h1>Information systems management system</h0>
+            <h2>Effortless Admin's security policies and procedures</h2>
+        </div>
+        <div class="MarkdownWrapper">
+            <div class="MarkdownBody">
+                {% for chapter in site.chapters %}
+                <div class="MarkdownChapter">
+                    {{ chapter.content }}
+                </div>
+                {% endfor %}
+            </div>
+        </div>
+    </div>
+</body>
+</html>

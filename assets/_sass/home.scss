@@ -1,3 +1,5 @@
+$grayText: #959da5;
+
 body {
     overflow: hidden;
 }
@@ -12,6 +14,50 @@ body {
         text-align: right;
         a.Button {
             margin-left: 10px;
+        }
+    }
+}
+body.Printable {
+    overflow: auto;
+    #CoverPage{
+        margin: 30px;
+        h1,
+        h2 {
+            font-family: "Segoe UI";
+            font-weight: 600;
+            line-height: 1.5;
+        }
+        h1 {
+            padding-bottom: 0.3em;
+            font-size: 2em;
+        }
+        h2 {
+            padding-bottom: 0.3em;
+            color: $grayText;
+            font-size: 1em;
+        }
+        img {
+            width: 400px;
+        }
+    }
+    .MarkdownWrapper {
+        overflow-y: auto;
+        .MarkdownBody {
+            max-width: 100%;
+        }
+    }
+    footer {
+        display: none;
+    }
+}
+@media print {
+    body.Printable {
+        #PageContent {
+            display: table;
+        }
+        #CoverPage,
+        .MarkdownChapter {
+            page-break-after: always;
         }
     }
 }
