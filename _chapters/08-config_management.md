@@ -1,7 +1,6 @@
 ---
 title: "Configuration Management"
 ---
-> Fix references on this page
 
 # ​8​ Configuration Management Policy
 EA standardizes and automates configuration management through the use of Chef/Salt scripts as well as documentation of all changes to production systems and networks. Chef and Salt automatically configure all EA systems according to established and tested policies, and are used as part of our Disaster Recovery plan and process.
@@ -15,7 +14,7 @@ EA standardizes and automates configuration management through the use of Chef/S
 1. Tooling to generate an up-to-date inventory of systems, including corresponding architecture diagrams for related products and services, is hosted on GitHub.
     * All systems are categorized as production and utility to differentiate based on criticality.
     * The Security Officer maintains scripts to generate inventory lists on demand using APIs provided by each cloud provider.
-    * These scripts are used to generate the diagrams and asset lists required by the Risk Assessment phase of EA's Risk Management procedures (**REF 3.2.1**).
+    * These scripts are used to generate the diagrams and asset lists required by the Risk Assessment phase of EA's Risk Management procedures (see [Section 3.2.1]({{ site.baseurl }}/chapters/03-risk_management#risk_assessment)).
     * After every use of these scripts, the Security Officer will verify their accuracy by reconciling their output with recent changes to production systems. The Security Officer will address any discrepancies immediately with changes to the scripts.
 1. All frontend functionality (developer dashboards and portals) is separated from backend (database and app servers) systems by being deployed on separate servers or containers.
 1. All software and systems are tested using unit tests and end to end tests.
@@ -27,7 +26,7 @@ EA standardizes and automates configuration management through the use of Chef/S
 ## ​8.2​ Provisioning Production Systems
 1. Before provisioning any systems, ops team members must file a request in the Asana Deployment Ticket (DT) project.
     * Asana access requires authenticated users.
-    * The CTO grants access to the Asana DT project following the procedures covered in **REF section 6.1**.
+    * The CTO grants access to the Asana DT project following the procedures covered in [Section 6.1]({{ site.baseurl }}/chapters/06-system_access#access).
 1. The CTO must approve the provisioning request before any new system can be provisioned.
 1. Once provisioning has been approved, the ops team member must configure the new system according to the standard baseline chosen for the system's role.
 1. If the system will be used to house production data (ePHI), the ops team member must add an encrypted block data volume to the VM during provisioning.
@@ -52,7 +51,7 @@ EA standardizes and automates configuration management through the use of Chef/S
     * Installing and configuring the NTP daemon, including ensuring that modifying system time cannot be performed by unprivileged users.
     * Configuring LUKS volumes for providers that do not have native support for encrypted data volumes, including ensuring that encryption keys are protected from unauthorized access.
     * Configuring authentication to the centralized LDAP servers.
-    * Configuring audit logging as described in **REF section 7**.
+    * Configuring audit logging as described in [Section 7]({{ site.baseurl }}/chapters/07-auditing).
 1. Any additional Salt states applied to the Linux system must be clearly documented by the ops team member in the DT request by specifying the purpose of the new system.
 
 ### ​8.2.2​ Provisioning Windows Systems
@@ -63,9 +62,9 @@ EA standardizes and automates configuration management through the use of Chef/S
     * Installing and configuring the OSSEC IDS agent.
     * Configuring 15-minute session inactivity timeouts.
     * Installing and configuring the Avast virus scanner.
-    * Configuring transport encryption according to the requirements described in **REF 16.8**.
+    * Configuring transport encryption according to the requirements described in [Section 16.8]({{ site.baseurl }}/chapters/16-data_integrity#transmission_security).
     * Configuring the system clock, including ensuring that modifying system time cannot be performed by unprivileged users.
-    * Configuring audit logging as described in **REF section 7**.
+    * Configuring audit logging as described in [Section 7]({{ site.baseurl }}/chapters/07-auditing).
 1. Any additional Salt states applied to the system must be clearly documented by the ops team member in the DT request by specifying the purpose of the new system.
 
 ### ​8.2.3​ Provisioning Management Systems
@@ -80,7 +79,7 @@ EA standardizes and automates configuration management through the use of Chef/S
         * Network connectivity timeouts.
 1. Critical infrastructure roles applied to new systems must be clearly documented by the ops team member in the DT request.
 
-## ​8.3​ Changing Existing Systems
+## ​8.3​ Changing Existing Systems {#changing_systems}
 1. Subsequent changes to already-provisioned systems are unconditionally handled by one of the following methods:
     * Changes to Salt states or pillar values.
     * Changes to Chef recipes.
@@ -118,4 +117,4 @@ EA standardizes and automates configuration management through the use of Chef/S
 1. Once the review process finishes, each reviewer should leave a comment on the pull request saying "looks good to me" or a message worded similarly, at which point the original author(s) may merge their change into the release branch.
 
 ## ​8.6​ Software Release Procedures
-Software releases are treated as changes to existing systems and thus follow the procedure described in **REF section 8.3**.
+Software releases are treated as changes to existing systems and thus follow the procedure described in [Section 8.3](#changing_systems).

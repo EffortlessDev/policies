@@ -2,8 +2,6 @@
 title: "3rd Parties"
 ---
 
-> Fix references
-
 # ​20​ 3rd Party Policy
 EA makes every effort to assure all 3rd party organizations are compliant and do not compromise the integrity, security, and privacy of EA or EA Customer data. 3rd Parties include Customers, Partners, Subcontractors, and Contracted Developers.
 
@@ -13,7 +11,7 @@ EA makes every effort to assure all 3rd party organizations are compliant and do
 1. A standard agreement with Customers and Partners is defined and includes the required security controls in accordance with the organization's security policies. Additionally, responsibility is assigned in these agreements.
 1. EA has Service Level Agreements (SLAs) with Subcontractors with an agreed service arrangement addressing liability, service definitions, security controls, and aspects of services management.
     * Subcontractors must coordinate, manage, and communicate any changes to services provided to EA.
-    * Changes to 3rd party services are classified as configuration management changes and thus are subject to the policies and procedures described in **REF section 8**; substantial changes to services provided by 3rd parties will invoke a Risk Assessment as described in **REF 3.1**.
+    * Changes to 3rd party services are classified as configuration management changes and thus are subject to the policies and procedures described in [Section 8]({{ site.baseurl }}/chapters/08-config_management); substantial changes to services provided by 3rd parties will invoke a Risk Assessment as described in [Section 3.2.1]({{ site.baseurl }}/chapters/03-risk_management#risk_assessment).
     * EA utilizes monitoring tools to regularly evaluate Subcontractors against relevant SLAs.
 1. No EA Customers or Partners have access outside of their own environment, meaning they cannot access, modify, or delete anything related to other 3rd parties.
 1. EA does not outsource software development.

@@ -1,12 +1,11 @@
 ---
 title: "System Access"
 ---
-> TODO: Update references
 
 # ​6​ System Access Policy
 Access to EA systems and application is limited for all users, including but not limited to workforce members, volunteers, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems. These safeguards have been established to address the PIPEDA regulations including the following.
 
-## ​6.1​ Access Establishment and Modification
+## ​6.1​ Access Establishment and Modification {#access}
 
 1. Requests for access to the EA Platform systems and applications is made formally using the following process:
     1. The EA workforce member, or their manager, initiates the access request by creating an Issue in the Asana Compliance Review Activity (CRA) Project.
@@ -16,7 +15,7 @@ Access to EA systems and application is limited for all users, including but not
     1. The Security Officer will grant access to systems as dictated by the employee's job title. If additional access is required outside of the minimum necessary to perform job functions, the requester must include a description of why the additional access is required as part of the access request.
     1. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
     1. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required. The Security Officer then grants requested access.
-        * New accounts will be created with a temporary secure password that meets all requirements from **REF**, which must be changed on the initial login.
+        * New accounts will be created with a temporary secure password that meets all requirements from [Section 6.11](#password), which must be changed on the initial login.
         * All password exchanges must occur over an authenticated channel.
         * For production systems, access grants are accomplished by adding the appropriate user account to the corresponding LDAP group.
         * For non-production systems, access grants are accomplished by leveraging the access control mechanisms built into those systems. Account management for non-production systems may be delegated to an EA employee at the discretion of the Security Officer.
@@ -29,7 +28,7 @@ Access to EA systems and application is limited for all users, including but not
     1. Once the review is completed, the Security Officer approves or rejects the Issue. If the Issue is rejected, it goes back for further review and documentation.
     1. If the review is approved, the Security Officer then marks the Issue as Done, adding any pertinent notes required.
     1. Review of user access is monitored on a bi-annual basis using Asana reporting to assess compliance with above policy.
-1. Any EA workforce member can request change of access using the process outlined in **REF**.
+1. Any EA workforce member can request change of access using the process outlined in [Section 6.1](#access).
 1. Access to production systems is controlled using centralized user management and authentication.
 1. Temporary accounts are not used unless absolutely necessary for business purposes.
     1. Accounts are reviewed every 90 days to ensure temporary accounts are not left unnecessarily.
@@ -37,7 +36,7 @@ Access to EA systems and application is limited for all users, including but not
 1. In the case of non-personal information, such as generic educational content, identification and authentication may not be required. This is the responsibility of EA Customers to define, and not EA.
 1. Privileged users must first access systems using standard, unique user accounts before switching to privileged users and performing privileged tasks.
     1. For production systems, this is enforced by creating non-privileged user accounts that must invoke sudo or User Account Control (UAC) to perform privileged tasks.
-    1. Rights for privileged accounts are granted by the Security Officer using the process outlined in **REF**.
+    1. Rights for privileged accounts are granted by the Security Officer using the process outlined in [Section 6.1](#access).
 1. All application to application communication using service accounts is restricted and not permitted unless absolutely needed. Automated tools are used to limit account access across applications and systems.
 1. Generic accounts are not allowed on EA systems.
 1. Access is granted through encrypted, VPN tunnels that utilize two-factor authentication.
@@ -76,7 +75,7 @@ Access to EA systems and application is limited for all users, including but not
 1. Information systems automatically log users off the systems after 15 minutes of inactivity.
 1. The Security Officer pre-approves exceptions to automatic log off requirements.
 
-## ​6.7​ Employee Workstation Use
+## ​6.7​ Employee Workstation Use {#workstations}
 All workstations at EA are company owned.
 1. Workstations may not be used to engage in any activity that is illegal or is in violation of organization's policies.
 1. Access may not be used for transmitting, retrieving, or storage of any communications of a discriminatory or harassing nature or materials that are obscene or "X-rated". Harassment of any kind is prohibited. No messages with derogatory or inflammatory remarks about an individual's race, age, disability, religion, national origin, physical attributes, sexual preference, or health condition shall be transmitted or maintained. No abusive, hostile, profane, or offensive language is to be transmitted through organization's system.
@@ -98,7 +97,7 @@ All workstations at EA are company owned.
     * All data in transit over wireless is encrypted using WPA2 encryption;
     * Passwords are rotated on a regular basis, presently quarterly. This process is managed by the EA Security Officer.
 
-## ​6.9​ Employee Termination Procedures
+## ​6.9​ Employee Termination Procedures {#termination}
 1. The Human Resources Department (or other designated department), users, and their supervisors are required to notify the Security Officer upon completion and/or termination of access needs and facilitating completion of the "Termination Checklist".
 1. The Human Resources Department, users, and supervisors are required to notify the Security Officer to terminate a user's access rights if there is evidence or reason to believe the following (these incidents are also reported on an incident report and is filed with the Privacy Officer):
     * The user has been using their access rights inappropriately;
@@ -110,7 +109,7 @@ All workstations at EA are company owned.
 ## ​6.10​ Paper Records
 EA does not use paper records for any sensitive information. Use of paper for recording and storing sensitive data is against EA policies.
 
-## 6.11​ Password Management
+## 6.11​ Password Management {#password}
 1. User IDs and passwords are used to control access to EA systems and may not be disclosed to anyone for any reason.
 1. Users may not allow anyone, for any reason, to have access to any information system using another user's unique user ID and password.
 1. On all production systems and applications in the EA environment, password configurations are set to require:
@@ -122,10 +121,10 @@ EA does not use paper records for any sensitive information. Use of paper for re
     * account lockout after 5 invalid attempts.
 1. All system and application passwords must be stored and transmitted securely.
     * Where possible, passwords should be stored in a hashed format using a salted cryptographic hash function (SHA-256 or equivalent or better).
-    * Passwords that must be stored in non-hashed format must be encrypted at rest pursuant to the requirements in **REF**.
-    * Transmitted passwords must be encrypted in flight pursuant to the requirements in **REF**.
+    * Passwords that must be stored in non-hashed format must be encrypted at rest pursuant to the requirements in [Section 16.7]({{ site.baseurl }}/chapters/16-data_integrity#data_security).
+    * Transmitted passwords must be encrypted in flight pursuant to the requirements in [Section 16.8]({{ site.baseurl }}/chapters/16-data_integrity#transmission_security).
 1. Each information system automatically requires users to change passwords at a predetermined interval as determined by the organization, based on the criticality and sensitivity of the ePHI contained within the network, system, application, and/or database.
-1. Passwords are inactivated immediately upon an employee's termination (refer to section **REF**).
+1. Passwords are inactivated immediately upon an employee's termination (refer to [Section 6.9](#termination)).
 1. All default system, application, and Partner passwords are changed before deployment to production.
 1. Upon initial login, users must change any passwords that were automatically generated for them.
 1. Password change methods must use a confirmation method to correct for user input errors.

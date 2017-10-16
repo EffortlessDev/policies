@@ -34,7 +34,7 @@ All access to Production Systems must be logged. This is done following the EA A
 1. Up to date system lists and architecture diagrams are kept for all production environments.
 1. Access to Production Systems is controlled using centralized tools and two-factor authentication.
 
-## 16.7​ Production Data Security
+## 16.7​ Production Data Security {#data_security}
 1. Reduce the risk of compromise of Production Data.
 1. Implement and/or review controls designed to protect Production Data from improper alteration or destruction.
 1. Ensure that confidential data is stored in a manner that supports user access logs for potential security incidents.
@@ -43,7 +43,7 @@ All access to Production Systems must be logged. This is done following the EA A
 1. Volume encryption keys and machines that generate volume encryption keys are protected from unauthorized access. Volume encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
 1. Encrypted volumes use AES encryption with a minimum of 256-bit keys, or keys and ciphers of equivalent or higher cryptographic strength.
 
-## 16.8​ Transmission Security
+## 16.8​ Transmission Security {#transmission_security}
 1. All data transmission is encrypted end to end using encryption keys managed by EA. Encryption is not terminated at the network endpoint, and is carried through to the application.
 1. Transmission encryption keys and machines that generate keys are protected from unauthorized access. Transmission encryption key material is protected with access controls such that the key material is only accessible by privileged accounts.
 1. Transmission encryption keys use a minimum of 2048-bit RSA keys, or keys and ciphers of equivalent or higher cryptographic strength (e.g., 256-bit AES session keys in the case of IPsec encryption).

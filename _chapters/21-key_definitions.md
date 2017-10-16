@@ -2,8 +2,6 @@
 title: "Key Definitions"
 ---
 
-> Fix references
-
 # 21​ Key Definitions
 * Application: An application hosted by EA, either maintained and created by EA, or maintained and created by a Customer or Partner.
 * Application Level: Controls and security associated with an Application. In the case of SaaS Customers, EA does not have access to and cannot assure compliance with security standards and policies at the Application Level.
@@ -14,7 +12,7 @@ title: "Key Definitions"
 * BaaS: Backend-as-a-Service. A set of APIs, and associated SDKs, for rapid mobile and web application development. APIs offer the ability to create users, do authentication, store data, and store files.
 * Backup: The process of making an electronic copy of data stored in a computer system. This can either be complete, meaning all data and programs, or incremental, including just the data that changed from the previous backup.
 * Backup Service: A logging service for unifying system and application logs, encrypting them, and providing a dashboard for them.
-* Breach: Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. For purpose of this definition, "compromises the security or privacy of the PHI" means poses a significant risk of financial, reputational, or other harm to the individual. A use or disclosure of PHI that does not include the identifiers listed at **REF §164.514(e)(2)**, limited data set, date of birth, and postal code does not compromise the security or privacy of the PHI. Breach excludes:
+* Breach: Means the acquisition, access, use, or disclosure of protected health information (PHI) in a manner not permitted under the Privacy Rule which compromises the security or privacy of the PHI. For purpose of this definition, "compromises the security or privacy of the PHI" means poses a significant risk of financial, reputational, or other harm to the individual. A use or disclosure of PHI that does not include names, telephone numbers, fax numbers, email addresses, social insurance numbers, medical record numbers, bank account numbers, certificate numbers, license numbers, Internet Protocol (IP) address numbers, biometric identifiers (including finger and voice prints), full face photographic images, date of birth, and postal code does not compromise the security or privacy of the PHI. Breach excludes:
     1. Any unintentional acquisition, access or use of PHI by a workforce member or person acting under the authority of a Covered Entity (CE) if such acquisition, access, or use was made in good faith and within the scope of authority and does not result in further use or disclosure in a manner not permitted under the Privacy Rule.
     1. Any inadvertent disclosure by a person who is authorized to access PHI at a CE or BA to another person authorized to access PHI at the same CE or BA, or organized health care arrangement in which the CE participates, and the information received as a result of such disclosure is not further used or disclosed in a manner not permitted under the Privacy Rule.
     1. A disclosure of PHI where a CE or BA has a good faith belief that an unauthorized person to whom the disclosure was made would not reasonably have been able to retain such information.

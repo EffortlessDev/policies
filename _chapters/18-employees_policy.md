@@ -2,8 +2,6 @@
 title: "Employees Policy"
 ---
 
-> Fix references
-
 # 18​ Employees Policy
 EA is committed to ensuring all workforce members actively address security and compliance in their roles at EA. As such, training is imperative to ensuring an understanding of current best practices, the different types and sensitivities of data, and the sanctions associated with non-compliance.
 
@@ -24,19 +22,19 @@ EA is committed to ensuring all workforce members actively address security and 
 1. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
 1. All EA purchased and owned computers are to display this message at login and when the computer is unlocked: This computer is owned by Effortless Admin Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies [({{site.production_url}})]({{site.production_url}}) and have completed company training. Please contact us if you have problems with this - {{security_email}}.
 1. Employees may only use EA purchased and owned workstations for accessing production systems with access to ePHI data.
-    * Any workstations used to access production systems must be configured as prescribed in **REF 6.7**.
+    * Any workstations used to access production systems must be configured as prescribed in [Section 6.7]({{ site.baseurl }}/chapters/06-system_access#workstations).
     * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.
-    * EA may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements (**REF section 7**).
-1. Access to internal EA systems can be requested using the procedures outlined in **REF 6.1**. All requests for access must be granted by the EA Security Officer.
-1. Request for modifications of access for any EA employee can be made using the procedures outlined in **REF 6.1**.
+    * EA may monitor access and activities of all users on workstations and production systems in order to meet auditing policy requirements ([Section 7]({{ site.baseurl }}/chapters/07-auditing)).
+1. Access to internal EA systems can be requested using the procedures outlined in [Section 6.1]({{ site.baseurl }}/chapters/06-system_access#access). All requests for access must be granted by the EA Security Officer.
+1. Request for modifications of access for any EA employee can be made using the procedures outlined in [Section 6.1]({{ site.baseurl }}/chapters/06-system_access#access).
 1. Employees are required to cooperate with federal and provincial investigations.
     * Employees must not interfere with investigations through willful misrepresentation, omission of facts, or by the use of threats against any person.
-    * Employees found to be in violation of this policy will be subject to sanctions as described in **REF 4.2.3**.
+    * Employees found to be in violation of this policy will be subject to sanctions as described in [Section 4.2.3]({{ site.baseurl }}/chapters/04-roles#workforce_sanctions).
 
 ## ​18.2​ Issue Escalation
 EA workforce members are to escalate issues using the procedures outlined in the Employee Handbook. Issues that are brought to the Escalation Team are assigned an owner. The membership of the Escalation Team is maintained by the Chief Executive Officer.
 
-Security incidents, particularly those involving ePHI, are handled using the process described in **REF 10.1**. If the incident involves a breach of ePHI, the Security Officer will manage the incident using the process described in **REF 11.1**. Refer to **REF 10.1** for a list of sample items that can trigger EA's incident response procedures; if you are unsure whether the issue is a security incident, contact the Security Officer immediately.
+Security incidents, particularly those involving ePHI, are handled using the process described in [Section 10.1]({{ site.baseurl }}/chapters/10-incident_response#policies). If the incident involves a breach of ePHI, the Security Officer will manage the incident using the process described in [Section 11.1]({{ site.baseurl }}/chapters/11-breach#policies). Refer to [Section 10.1]({{ site.baseurl }}/chapters/10-incident_response#policies) for a list of sample items that can trigger EA's incident response procedures; if you are unsure whether the issue is a security incident, contact the Security Officer immediately.
 
 It is the duty of that owner to follow the process outlined below:
 1. Create an Issue in the Asana Compliance Review Activity (CRA) Project.

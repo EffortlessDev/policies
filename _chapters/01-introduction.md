@@ -12,7 +12,7 @@ SaaS Customers utilize hosted software and infrastructure from EA to run their T
 ## ​1.2​ Compliance
 EA signs agreements with its Customers. These agreements outline EA obligations and Customer obligations, as well as liability in the case of a breach. In providing infrastructure and managing security configurations that are a part of the technology requirements that exist in PIPEDA as well as future compliance frameworks, EA manages various aspects of compliance for Customers. The aspects of compliance that EA manages for Customers are inherited by Customers, and EA assumes the risk associated with those aspects of compliance. In doing so, EA helps Customers achieve and maintain compliance, as well as mitigates Customer’s risk.
 
-## ​1.3​ EA Organizational Concepts
+## 1.3 EA Organizational Concepts {#org}
 The physical infrastructure environment is hosted at Peer1. The network components and supporting network infrastructure are contained within the Peer1 infrastructures and managed by Peer1. EA does not have physical access into the network components. The EA environment consists of firewalls, web servers and Microsoft SQL database servers.
 
 Within the EA Platform on Peer1, all data transmission is encrypted and all hard drives are encrypted so data at rest is also encrypted; this applies to all servers,  databases, APIs, log servers, etc. EA assumes all data may contain ePHI, even though our Risk Assessment does not indicate this is the case, and provides appropriate protections based on that assumption.

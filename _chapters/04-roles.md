@@ -94,7 +94,7 @@ Although the Security Officer is responsible for implementing and overseeing all
     1. Assist the Security and Privacy Officers to ensure appropriate role-based access is provided to all users.
     1. Take all reasonable steps to hire, retain, and promote workforce members and provide access to users who comply with the Security regulation and EA's security policies and procedures.
 
-### ​4.2.3​ Sanctions of Workforce Responsibilities
+### ​4.2.3​ Sanctions of Workforce Responsibilities {#workforce_sanctions}
 All workforce members report non-compliance of EA's policies and procedures to the Security Officer or other individual as assigned by the Security Officer. Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.
 1. The Security Officer promptly facilitates a thorough investigation of all reported violations of EA's security policies and procedures. The Security Officer may request the assistance from others.
     * Complete an audit trail/log to identify and verify the violation and sequence of events.

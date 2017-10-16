@@ -1,12 +1,11 @@
 ---
 title: "Facility Access"
 ---
-> TODO: Fix references on this page.
 
 # 9​ Facility Access Policy
 EA works with Subcontractors to assure restriction of physical access to systems used as part of the EA Platform. EA and its Subcontractors control access to the physical buildings/facilities that house these systems/applications, or in which EA workforce members operate, in accordance with the PIPEDA regulations and its implementation specifications. Physical Access to all of EA facilities is limited to only those authorized in this policy. In an effort to safeguard ePHi from unauthorized access, tampering, and theft, access is allowed to areas only to those persons authorized to be in them and with escorts for unauthorized persons. All workforce members are responsible for reporting an incident of unauthorized visitor and/or unauthorized access to EA's facility.
 
-EA does not physically house any systems used by its Platform in EA facilities. Physical security of our Platform servers is outlined in **REF 1.3**.
+EA does not physically house any systems used by its Platform in EA facilities. Physical security of our Platform servers is outlined in [Section 1.3]({{ site.baseurl }}/chapters/01-introduction#org).
 
 ## ​9.1​ EA-controlled Facility Access Policies
 1. Visitor and third party support access is recorded and supervised. All visitors are escorted.

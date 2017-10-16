@@ -5,7 +5,7 @@ title: "Risk Management"
 # ​3​ Risk Management Policy
 This policy establishes the scope, objectives, and procedures of EA's information security risk management process. The risk management process is intended to support and protect the organization and its ability to fulfill its mission.
 
-## ​3.1​ Risk Management Policies
+## ​3.1​ Risk Management Policies {#policies}
 1. It is the policy of EA to conduct thorough and timely risk assessments of the potential threats and vulnerabilities to the confidentiality, integrity, and availability of electronic protected health information (ePHI) (and other confidential and proprietary electronic information) it stores, transmits, and/or processes for its Customers and to develop strategies to efficiently and effectively mitigate the risks identified in the assessment process as an integral part of the EA's information security program.
 1. Risk analysis and risk management are recognized as important components of EA's corporate compliance program and information security program.
     1. Risk assessments are done throughout product life cycles:
@@ -32,7 +32,7 @@ This policy establishes the scope, objectives, and procedures of EA's informatio
 
 ## ​3.2​ Risk Management Procedures
 
-### ​3.2.1​ Risk Assessment
+### ​3.2.1​ Risk Assessment {#risk_assessment}
 The intent of completing a risk assessment is to determine potential threats and vulnerabilities and the likelihood and impact should they occur. The output of this process helps to identify appropriate controls for reducing or eliminating risk.
 
 * Step 1. System Characterization

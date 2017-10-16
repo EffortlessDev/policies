@@ -12,7 +12,7 @@ The incident response process addresses:
 * Workforce training, education, and awareness on information security incidents and required responses; and
 * Facilitation of clear communication of information security incidents with internal, as well as external, stakeholders
 
-## ​10.1​ Incident Management Policies
+## ​10.1​ Incident Management Policies {#policies}
 The EA incident response process follows the process recommended by [SANS](https://www.sans.org/), an industry leader in security. Process flows are a direct representation of the SANS process.
 
 EA's incident response classifies security-related events into the following categories:
