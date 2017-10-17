@@ -23,6 +23,7 @@ cto_name: "David Reid"
 cto_email: dreid@effortlessadmin.com
 
 # Generic emails
+compliance_reports_email: compliance-reports@effortlessadmin.com
 security_email: privacy@effortlessadmin.com
 password_reset_email: password-reset@effortlessadmin.com
 

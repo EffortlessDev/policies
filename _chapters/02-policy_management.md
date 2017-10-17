@@ -18,7 +18,7 @@ EA implements policies and procedures to maintain compliance and integrity of da
     1. The Security Officer also communicates policy changes to all employees via email. These emails include a high-level description of the policy change using terminology appropriate for the target audience.
 1. All policies, and associated documentation, are retained for 6 years from the date of its creation or the date when it last was in effect, whichever is later
     1. Version history of all EA policies is done via GitHub.
-    1. Backup storage of all policies is done with Box.
+    1. Backup storage of all policies is done with Google Drive.
 1. The policies and information security policies are reviewed and audited annually, or after significant changes occur to EA's organizational environment. Issues that come up as part of this process are reviewed by EA management to assure all risks and potential gaps are mitigated and/or fully addressed. The process for reviewing policies is outlined below:
     1. The Security Officer initiates the policy review by creating an Issue in the Asana Compliance Review Activity (CRA) project.
     1. The Security Officer or the Privacy Officer is assigned to review the current EA policies [({{site.production_url}})]({{site.production_url}}).

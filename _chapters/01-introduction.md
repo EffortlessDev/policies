@@ -29,7 +29,7 @@ All Platform features and operating systems are tested end-to-end for usability,
 EA, at its sole discretion, shares audit reports with customers on a case by case basis. All audit reports are shared under explicit NDA in EA format between EA and party to receive materials. Audit reports can be requested by EA workforce members for Customers or directly by EA Customers.
 
 The following process is used to request audit reports:
-1. Email is sent to compliance-reports@effortlessadmin.com. In the email, please specify the type of report being requested and any required timelines for the report.
+1. Email is sent to {{site.compliance_reports_email}}. In the email, please specify the type of report being requested and any required timelines for the report.
 1. EA staff will log an Issue with the details of the request into the EA Compliance Review Activities Project on Asana. Asana is used to track requests status and outcomes.
 1. EA will confirm if a current NDA is in place with the party requesting the audit report. If there is no NDA in place, EA will send one for execution.
 1. Once it has been confirmed that an NDA is executed, EA staff will move the Asana Issue to "Under Review".

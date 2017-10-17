@@ -8,8 +8,8 @@ EA has a [Security Officer](#security_officer) and [Privacy Officer](#privacy_of
 The Privacy Officer is responsible for assisting with compliance and security training for workforce members, assuring organization remains in compliance with evolving compliance rules, and helping the Security Officer in his responsibilities.
 1. Provides annual training to all workforce members of established policies and procedures as necessary and appropriate to carry out their job functions, and documents the training provided.
 1. Assists in the administration and oversight of agreements.
-1. Manage relationships with customers and partners as those relationships affect security and compliance of ePHI.
-1. Assist Security Officer as needed.
+1. Manages relationships with customers and partners as those relationships affect security and compliance of ePHI.
+1. Assists Security Officer as needed.
 
 The current EA Privacy Officer is {{site.po_name}} [({{site.po_email}})]({{site.po_email}}).
 
