@@ -3,7 +3,7 @@ title: "System Access"
 ---
 
 # ​6​ System Access Policy
-Access to EA systems and application is limited for all users, including but not limited to workforce members, volunteers, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems. These safeguards have been established to address the PIPEDA regulations including the following.
+Access to EA systems and applications is limited for all users, including but not limited to workforce members, volunteers, contracted providers, consultants, and any other entity, is allowable only on a minimum necessary basis. All users are responsible for reporting an incident of unauthorized user or access of the organization's information systems. These safeguards have been established to address the PIPEDA regulations including the following.
 
 ## ​6.1​ Access Establishment and Modification {#access}
 
@@ -131,12 +131,12 @@ EA does not use paper records for any sensitive information. Use of paper for re
 1. All passwords used in configuration scripts are secured and encrypted.
 1. If a user believes their user ID has been compromised, they are required to immediately report the incident to the Security Office.
 1. In cases where a user has forgotten their password to the internal EA network, the following procedure is used to reset the password.
-    * The user submits a password reset request to password-reset@effortlessadmin.com. The request should include the system to which the user has lost access and needs the password reset.
+    * The user submits a password reset request to <a href="mailto:{{ site.password_reset_email | encode_email }}">{{ site.so_email }}</a>. The request should include the system to which the user has lost access and needs the password reset.
     * An administrator with password reset privileges is notified and connects directly with the user requesting the password reset.
     * The administrator verifies the identity of the user either in-person or through a separate communication channel such as phone or Slack.
     * Once verified, the administrator resets the password.
 
-The password-reset email inbox is used to track and store password reset requests. The Security Officer is the owner of this group and modifies membership as needed.
+The Password Reset email inbox is used to track and store password reset requests. The Security Officer is the owner of this group and modifies membership as needed.
 
 ## ​6.12​ Access to ePHI
 1. Employees may not download ePHI to any workstations used to connect to production systems.

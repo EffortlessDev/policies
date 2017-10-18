@@ -10,7 +10,7 @@ Violation of this policy and its procedures by workforce members may result in c
 
 ## ​5.1​ Backup Policy and Procedures
 1. Perform daily snapshot backups of all systems that process, store, or transmit ePHI for EA Customers, including SaaS Customers.
-1. EA Ops Team, lead by CTO, is designated to be in charge of backups.
+1. EA Ops Team, lead by the CTO, is designated to be in charge of backups.
 1. Dev Ops Team members are trained and assigned to complete backups and manage the backup media.
 1. Document backups
     * Name of the system
