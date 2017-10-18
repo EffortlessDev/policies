@@ -13,5 +13,12 @@ $(document).ready(function() {
     $(window).resize(function(){
         defaultPage.resize();
     });
-});
 
+    // Ensure browser scrolls to the URL anchor (if one exists)
+    if (location.hash) {
+        var element = $(location.hash)[0];
+        if (element) {
+            element.scrollIntoView();
+        }
+    }
+});
