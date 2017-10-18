@@ -11,7 +11,7 @@ The Privacy Officer is responsible for assisting with compliance and security tr
 1. Manages relationships with customers and partners as those relationships affect security and compliance of ePHI.
 1. Assists Security Officer as needed.
 
-The current EA Privacy Officer is {{site.po_name}} [({{site.po_email}})]({{site.po_email}}).
+The current EA Privacy Officer is {{site.po_name}} (<a href="mailto:{{ site.po_email | encode_email }}">{{ site.po_email }}</a>).
 
 ### ​4.1.1​ Workforce Training Responsibilities
 1. The Privacy Officer facilitates the training of all workforce members as follows:
@@ -48,7 +48,7 @@ The current EA Privacy Officer is {{site.po_name}} [({{site.po_email}})]({{site.
 ## ​4.2​ Security Officer {#security_officer}
 The Security Officer is responsible for facilitating the training and supervision of all workforce members, investigation and sanctioning of any workforce member that is in violation of EA security policies and non-compliance with the security regulations, and writing, implementing, and maintaining all policies, procedures, and documentation related to efforts toward security and compliance.
 
-The current EA Security Officer is {{site.so_name}} [({{site.so_email}})]({{site.so_email}}).
+The current EA Security Officer is {{site.so_name}} (<a href="mailto:{{ site.so_email | encode_email }}">{{ site.so_email }}</a>).
 
 ### ​4.2.1​ Organizational Responsibilities
 The Security Officer, in collaboration with the Privacy Officer, is responsible for facilitating the development, testing, implementation, training, and oversight of all activities pertaining to EA's efforts to be compliant with the PIPEDA regulations and any other security and compliance frameworks. The intent of the Security Officer Responsibilities is to maintain the confidentiality, integrity, and availability of ePHI. The Security Officer is appointed by and reports to the Board of Directors and the CEO.

@@ -8,11 +8,11 @@ git_url: "https://github.com/EffortlessDev/policies"
 
 # Privacy officer
 po_name: "Michael Ross"
-po_email: mross@effortlessadmin.com
+po_email: privacy_officer@effortlessadmin.com
 
 # Security officer
 so_name: "David Reid"
-so_email: dreid@effortlessadmin.com
+so_email: security_officer@effortlessadmin.com
 
 # President & CEO
 president_name: "David Ross"
@@ -39,6 +39,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-github-metadata
+  - jekyll-email-protect
 
 kramdown:
   auto_ids: false
