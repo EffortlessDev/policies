@@ -1,5 +1,5 @@
 $height: 120px;
-$leftColumnWidth: 200px;
+$leftColumnWidth: 250px;
 
 .HeaderWrapper {
     overflow: hidden;
@@ -11,7 +11,7 @@ $leftColumnWidth: 200px;
         a.HeaderLogo {
             padding-left: 20px;
             img {
-                padding-top: 35px;
+                padding-top: 25px;
                 width: $leftColumnWidth - 40px;
             }
         }

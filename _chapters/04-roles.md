@@ -67,7 +67,7 @@ These organizational responsibilities include, but are not limited to the follow
     * Promptly, properly, and consistently investigates and addresses reported violations and takes steps to prevent recurrence.
     * Applies consistent and appropriate sanctions against workforce members who fail to comply with the security policies and procedures of EA.
     * Mitigates, to the extent practicable, any harmful effect known to EA of a use or disclosure of ePHI in violation of EA's policies and procedures, even if effect is the result of actions of EA customers, and/or partners.
-1. Reports security efforts and incidents to administration immediately upon discovery. Responsibilities in the case of a known ePHI breach are documented in section 11.
+1. Reports security efforts and incidents to administration immediately upon discovery. Responsibilities in the case of a known ePHI breach are documented in [Section 11]({{ site.baseurl }}/chapters/11-breach).
 1. The Security Officer facilitates the communication of security updates and reminders to all workforce members to which it pertains. Examples of security updates and reminders include, but are not limited to:
     * Latest malicious software or virus alerts;
     * EA's requirement to report unauthorized attempts to access ePHI;
@@ -90,9 +90,9 @@ These organizational responsibilities include, but are not limited to the follow
 
 ### ​4.2.2​ Supervision of Workforce Responsibilities
 Although the Security Officer is responsible for implementing and overseeing all activities related to maintaining compliance, it is the responsibility of all workforce members (i.e. team leaders, supervisors, managers, directors, co-workers, etc.) to supervise all workforce members and any other user of EA's systems, applications, servers, workstations, etc. that contain ePHI.
-    1. Monitor workstations and applications for unauthorized use, tampering, and theft and report non-compliance according to the Security Incident Response policy.
-    1. Assist the Security and Privacy Officers to ensure appropriate role-based access is provided to all users.
-    1. Take all reasonable steps to hire, retain, and promote workforce members and provide access to users who comply with the Security regulation and EA's security policies and procedures.
+1. Monitor workstations and applications for unauthorized use, tampering, and theft and report non-compliance according to the Security Incident Response policy.
+1. Assist the Security and Privacy Officers to ensure appropriate role-based access is provided to all users.
+1. Take all reasonable steps to hire, retain, and promote workforce members and provide access to users who comply with the Security regulation and EA's security policies and procedures.
 
 ### ​4.2.3​ Sanctions of Workforce Responsibilities {#workforce_sanctions}
 All workforce members report non-compliance of EA's policies and procedures to the Security Officer or other individual as assigned by the Security Officer. Individuals that report violations in good faith may not be subjected to intimidation, threats, coercion, discrimination against, or any other retaliatory action as a consequence.
@@ -106,4 +106,4 @@ All workforce members report non-compliance of EA's policies and procedures to t
     * A violation resulting in a breach of confidentiality (i.e. release of PHI to an unauthorized individual), change of the integrity of any ePHI, or inability to access any ePHI by other users, requires immediate disciplinary action and may require immediate termination of the workforce member from EA.
 1. The Security Officer facilitates taking appropriate steps to prevent recurrence of the violation (when possible and feasible).
 1. In the case of an insider threat, the Security Officer and Privacy Officer are to set up a team to investigate and mitigate the risk of insider malicious activity. EA workforce members are encouraged to come forward with information about insider threats, and can do so anonymously.
-1. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent reoccurrence for a minimum of six years after the conclusion of the investigation.
+1. The Security Officer maintains all documentation of the investigation, sanctions provided, and actions taken to prevent recurrence for a minimum of six years after the conclusion of the investigation.
