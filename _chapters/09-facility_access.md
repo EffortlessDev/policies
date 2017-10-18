@@ -8,8 +8,7 @@ EA works with Subcontractors to assure restriction of physical access to systems
 EA does not physically house any systems used by its Platform in EA facilities. Physical security of our Platform servers is outlined in [Section 1.3]({{ site.baseurl }}/chapters/01-introduction#org).
 
 ## ​9.1​ EA-controlled Facility Access Policies
-1. Visitor and third party support access is recorded and supervised. All visitors are escorted.
-1. Repairs are documented and the documentation is retained.
+1. Visitor and third party support access is supervised. All visitors are escorted.
 1. Fire extinguishers and detectors are installed according to applicable laws and regulations.
 1. Maintenance is controlled and conducted by authorized personnel in accordance with supplier-recommended intervals, insurance policies and the organization's maintenance program.
 1. Electronic and physical media containing covered information is securely destroyed (or the information securely removed) prior to disposal.
