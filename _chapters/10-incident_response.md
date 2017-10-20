@@ -1,5 +1,10 @@
 ---
 title: "Incident Response"
+eradication_form_url: assets/pdf/incident_eradication.pdf
+identification_form_url: assets/pdf/incident_identification.pdf
+survey_form_url: assets/pdf/incident_survey.pdf
+indicent_report_url: assets/pdf/incident_report.pdf
+
 ---
 # ​10​ Incident Response Policy
 EA implements an information security incident response process to consistently detect, respond, and report incidents, minimize loss and destruction, mitigate the weaknesses that were exploited, and restore information system functionality and business continuity as soon as possible.
@@ -45,10 +50,10 @@ EA employees must report any unauthorized or suspicious activity seen on product
     * Online incident;
     * Secure Chat.
     * Anonymously through workforce members desired channels.
-1. The individual receiving the report facilitates completion of an Incident Identification form and notifies the Security Officer (if not already done).
+1. The individual receiving the report facilitates completion of an <a href="{{ site.baseurl }}/{{ page.identification_form_url }}" target="_blank">Incident Identification form</a> and notifies the Security Officer (if not already done).
 1. The Security Officer determines if the issue is an Event, Precursor, Indication, or Incident.
     1. If the issue is an event, indication, or precursor the Security Officer forwards it to the appropriate resource for resolution.
-        1. Non-Technical Event (minor infringement): the Security Officer completes a Security Incident Report form and investigates the incident.
+        1. Non-Technical Event (minor infringement): the Security Officer completes a <a href="{{ site.baseurl }}/{{ page.indicent_report_url }}" target="_blank">Security Incident Report form</a> and investigates the incident.
         1. Technical Event: Assign the issue to an IT resource for resolution. This resource may also be a contractor or outsourced technical resource, in the event of a small office or lack of expertise in the area.
     1. If the issue is a security incident the Security Officer activates the Security Incident Response Team (SIRT) and notifies senior management.
         1. If a non-technical security incident is discovered the SIRT completes the investigation, implements preventative measures, and resolves the security incident.
@@ -56,7 +61,7 @@ EA employees must report any unauthorized or suspicious activity seen on product
         1. If the issue is a technical security incident, commence to Phase II: Containment.
         1. The Containment, Eradication, and Recovery Phases are highly technical. It is important to have them completed by a highly qualified technical security resource with oversight by the SIRT team.
         1. Each individual on the SIRT and the technical security resource document all measures taken during each phase, including the start and end times of all efforts.
-        1. The lead member of the SIRT team facilitates initiation of an SIR Form or an Incident Survey Form. The intent of the SIR form is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
+        1. The lead member of the SIRT team facilitates initiation of an <a href="{{ site.baseurl }}/{{ page.indicent_report_url }}" target="_blank">Security Incident Report form</a> or an <a href="{{ site.baseurl }}/{{ page.survey_form_url }}" target="_blank">Incident Survey form</a>. The intent of the <a href="{{ site.baseurl }}/{{ page.indicent_report_url }}" target="_blank">Security Incident Report form</a> is to provide a summary of all events, efforts, and conclusions of each Phase of this policy and procedures.
 1. The Security Officer, Privacy Officer, or EA representative appointed notifies any affected Customers and Partners. If no Customers and Partners are affected, notification is at the discretion of the Security and Privacy Officer.
 1. In the case of a threat identified, the Security Officer is to form a team to investigate and involve necessary resources, both internal to EA and potentially external.
 
@@ -73,7 +78,7 @@ In this Phase, EA's IT department attempts to contain the security incident. It 
     1. Change the password(s) to the affected system(s).
     1. Determine whether it is safe to continue operations with the affect system(s).
     1. If it is safe, allow the system to continue to function;
-        1. Complete any documentation relative to the security incident on the SIR Form.
+        1. Complete any documentation relative to the security incident on the <a href="{{ site.baseurl }}/{{ page.indicent_report_url }}" target="_blank">Security Incident Report form</a>.
         1. Move to Phase V, Follow-up.
     1. If it is NOT safe to allow the system to continue operations, discontinue the system's operation and move to Phase III, Eradication.
     1. The individual completing this phase provides written communication to the SIRT.
@@ -90,7 +95,7 @@ The Eradication Phase represents the SIRT's effort to remove the cause, and the 
     1. Remediation ("fixing") any security issues within the affected system, such as removing unused services/general host hardening techniques.
 1. Conduct a detailed vulnerability assessment to verify all the holes/gaps that can be exploited have been addressed.
     1. If additional issues or symptoms are identified, take appropriate preventative measures to eliminate or minimize potential future compromises.
-1. Complete the Eradication Form.
+1. Complete the <a href="{{ site.baseurl }}/{{ page.eradication_form_url }}" target="_blank">Eradication form</a>.
 1. Update the documentation with the information learned from the vulnerability assessment, including the cause, symptoms, and the method used to fix the problem with the affected system(s).
 1. Apprise Senior Management of the progress.
 1. Continue to notify affected Customers and Partners with relevant updates as needed.
@@ -113,7 +118,7 @@ The Recovery Phase represents the SIRT's effort to restore the affected system(s
 The Follow-up Phase represents the review of the security incident to look for "lessons learned" and to determine whether the process that was taken could have been improved in any way. It is recommended all security incidents be reviewed shortly after resolution to determine where response could be improved. Timeframes may extend to one to two weeks post-incident.
 
 1. Responders to the security incident (SIRT Team and technical security resource) meet to review the documentation collected during the security incident.
-1. Create a "lessons learned" document and attach it to the completed SIR Form.
+1. Create a "lessons learned" document and attach it to the completed <a href="{{ site.baseurl }}/{{ page.indicent_report_url }}" target="_blank">Security Incident Report form</a>.
     1. Evaluate the cost and impact of the security incident to EA using the documents provided by the SIRT and the technical security resource.
     1. Determine what could be improved.
     1. Communicate these findings to Senior Management for approval and for implementation of any recommendations made post-review of the security incident.
