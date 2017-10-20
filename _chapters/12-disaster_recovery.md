@@ -56,9 +56,9 @@ The notification sequence is listed below:
 * The CTO is to contact the Web Services Team and inform them of the event. The CTO is to begin assessment procedures.
 * The CTO is to notify team members and direct them to complete the assessment procedures outlined below to determine the extent of damage and estimated recovery time. If damage assessment cannot be performed locally because of unsafe conditions, the CTO is to following the steps below.
     * Damage Assessment Procedures:
-    * The CTO is to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
+        * The CTO is to logically assess damage, gain insight into whether the infrastructure is salvageable, and begin to formulate a plan for recovery.
     * Alternate Assessment Procedures:
-    * Upon notification, the CTO is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams.
+        * Upon notification, the CTO is to follow the procedures for damage assessment with combined Dev Ops and Web Services Teams.
 * The EA Contingency Plan is to be activated if one or more of the following criteria are met:
     * EA will be unavailable for more than 48 hours.
     * Hosting facility is damaged and will be unavailable for more than 24 hours.
@@ -67,7 +67,7 @@ The notification sequence is listed below:
     * Upon notification from the CTO, group leaders and managers are to notify their respective teams. Team members are to be informed of all applicable information and prepared to respond and relocate if necessary.
     * The CTO is to notify the hosting facility partners that a contingency event has been declared.
     * The CTO is to notify remaining personnel and executive leadership on the general status of the incident.
-    * Notification can be message, email, or phone.
+    * Notification can be by message, email, or phone.
 
 ### ​12.4.2​ Recovery Phase
 This section provides procedures for recovering the application at an alternate site, whereas other efforts are directed to repair damage to the original system and capabilities.
@@ -96,4 +96,4 @@ This section discusses activities necessary for restoring EA operations at the o
     * Assure systems are appropriately patched and up to date. - Dev Ops
     * Update DNS to new environment. - Dev Ops
 1. Plan Deactivation
-    * If the EA environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the EA Media Disposal Policy.
+    * If the EA environment is moved back to the original site from the alternative site, all hardware used at the alternate site should be handled and disposed of according to the [EA Media Disposal Policy]({{ site.baseurl }}/chapters/13-disposable_media).

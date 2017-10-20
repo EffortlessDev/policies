@@ -20,7 +20,9 @@ EA is committed to ensuring all workforce members actively address security and 
 1. All new workforce members are given PIPEDA training within 30 days of beginning employment. Training includes PIPEDA reporting requirements, including the ability to anonymously report security incidents, and the levels of compliance and obligations for EA and its Customers and Partners.
     * Current EA training is hosted on EA’s private internal network.
 1. All remote (teleworking) workforce members are trained on the risks, the controls implemented, their responsibilities, and sanctions associated with violation of policies. Additionally, remote security is maintained through the use of VPN tunnels for all access to production systems with access to ePHI data.
-1. All EA purchased and owned computers are to display this message at login and when the computer is unlocked: This computer is owned by Effortless Admin Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies [({{site.production_url}})]({{site.production_url}}) and have completed company training. Please contact us if you have problems with this - {{security_email}}.
+1. All EA purchased and owned computers are to display this message at login and when the computer is unlocked:
+
+    > This computer is owned by Effortless Admin Inc. By logging in, unlocking, and/or using this computer you acknowledge you have seen, and follow, these policies [({{site.production_url}})]({{site.production_url}}) and have completed company training. Please contact us if you have problems with this - {{security_email}}.
 1. Employees may only use EA purchased and owned workstations for accessing production systems with access to ePHI data.
     * Any workstations used to access production systems must be configured as prescribed in [Section 6.7]({{ site.baseurl }}/chapters/06-system_access#workstations).
     * Any workstations used to access production systems must have virus protection software installed, configured, and enabled.

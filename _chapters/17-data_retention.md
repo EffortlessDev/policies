@@ -1,7 +1,7 @@
 ---
 title: "Data Retention"
 ---
-# Data Retention Policy
+# 17 Data Retention Policy
 Despite not being a requirement within PIPEDA, EA understands and appreciates the importance of health data retention. EA has created and implemented the following policy to make it easier for Customers to support data retention laws.
 * Current EA Customers have data stored by EA as a part of the EA Service.
 * EA stores customer information for a minimum of six years after a Customer ceases to be a Customer, as defined below:

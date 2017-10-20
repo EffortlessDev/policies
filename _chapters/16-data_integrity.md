@@ -11,22 +11,22 @@ Production systems that create, receive, store, or transmit Customer data (herea
 All Production Systems must disable services that are not required to achieve the business purpose or function of the system.
 ​
 ## 16.2​ Monitoring Login Attempts
-All access to Production Systems must be logged. This is done following the EA Auditing Policy.
+All access to Production Systems must be logged. This is done following the EA [Auditing Policy]({{ site.baseurl }}/chapters/07-auditing).
 
 ## 16.3​ Prevention of Malware on Production Systems
 1. All Production Systems must have McAfee AntiVirus (or equivalent or better virus scanning engine) running, and set to scan on-access, plus a full scan every 2 hours and at reboot to assure not malware is present. Detected malware is evaluated and removed.
 1. Virus scanning software is run on all Production Systems for antivirus protection.
     * Hosts are scanned daily for malicious binaries in critical system paths.
     * The malware signature database is checked daily and automatically updated if new signatures are available.
-    * Logs of virus scans are maintained according to the requirements outlined in 16.5.
+    * Logs of virus scans are maintained according to the requirements outlined in [16.5](#intrusion_detection).
 1. All Production Systems are to only be used for EA business needs.
 
 ## ​16.4​ Patch Management
 1. Software patches and updates will be applied to all systems in a timely manner. In the case of routine updates, they will be applied after thorough testing. In the case of updates to correct known vulnerabilities, priority will be given to testing to speed the time to production. Critical security patches are applied within 30 days from testing and all security patches are applied within 90 days after testing.
 1. Administrators subscribe to mailing lists to assure up to date on current version of all EA managed software on Production Systems.
 
-## 16.5 Intrusion Detection and Vulnerability Scanning
-1. Production systems are monitored using IDS systems. Suspicious activity is logged and alerts are generated.
+## 16.5 Intrusion Detection and Vulnerability Scanning  {#intrusion_detection}
+1. Production systems are monitored using intrusion detection systems (IDS). Suspicious activity is logged and alerts are generated.
 1. Vulnerability scanning of Production Systems must occur on a predetermined, regular basis, no less than annually. Currently it is weekly. Scans are reviewed by Security Officer, with defined steps for risk mitigation, and retained for future reference.
 
 ## 16.6​ Production System Security
