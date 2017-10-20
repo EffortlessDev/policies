@@ -14,7 +14,7 @@ To provide guidance for breach notification when impressive or unauthorized acce
     * The potential for significant risk of financial, reputational, or other harm.
 1. Timeliness of Notification: Upon discovery of a breach, notice shall be made to the affected EA Customers no later than 4 hours after the discovery of the breach. It is the responsibility of the organization to demonstrate that all notifications were made as required, including evidence demonstrating the necessity of delay.
 1. Delay of Notification Authorized for Law Enforcement Purposes: If a law enforcement official states to the organization that a notification, notice, or posting would impede a criminal investigation or cause damage to national security, the organization shall:
-    * If the statement is in writing and specifies the time for which a delay is required, delay such notification, notice, or posting of the timer period specified by the official; or
+    * If the statement is in writing and specifies the time for which a delay is required, delay such notification, notice, or posting of the time period specified by the official; or
     * If the statement is made orally, document the statement, including the identify of the official making the statement, and delay the notification, notice, or posting temporarily and no longer than 30 days from the date of the oral statement, unless a written statement as described above is submitted during that time.
 1. Content of the Notice: The notice shall be written in plain language and must contain the following information:
     * A brief description of what happened, including the date of the breach and the date of the discovery of the breach, if known;
