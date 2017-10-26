@@ -20,12 +20,9 @@ gem "github-pages", group: :jekyll_plugins
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
   gem 'jekyll-seo-tag'
   gem 'jekyll-sitemap'
-  gem 'jekyll-avatar'
   gem 'jekyll-github-metadata'
-  gem 'jekyll-redirect-from'
   gem 'jekyll-email-protect'
 end
 
