@@ -1,6 +1,10 @@
 ---
 title: "ISMS"
-redirect_to: /chapters/01-introduction/
+sitemap: false
 ---
 
 Loading...
+
+<script type="text/javascript">
+    window.location.replace("{{ site.baseurl }}/chapters/01-introduction")
+</script>
