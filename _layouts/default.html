@@ -34,6 +34,8 @@
 
     {% include scripts.html %}
 
-    <!-- TODO: add google analytics -->
+    {% if jekyll.environment == 'production' %}
+    {% include analytics.html %}
+    {% endif %}
 </body>
 </html>
