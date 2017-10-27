@@ -29,7 +29,7 @@ password_reset_email: password_reset@effortlessadmin.com
 
 # Serving
 baseurl: "/policies"
-url: "http://localhost:4000/"
+url: "https://effortlessdev.github.io"
 redirects: yes
 
 # Conversion
