@@ -1,0 +1,12 @@
+<script type="text/javascript">
+    function AddCssFileToHead (path) {
+        var link = document.createElement("link");
+        link.rel = "stylesheet";
+        link.href = path;
+        link.type = "text/css";
+        var firstLink = document.getElementsByTagName("link")[0];
+        firstLink.parentNode.insertBefore(link, firstLink);
+    }
+
+    AddCssFileToHead("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+</script>
