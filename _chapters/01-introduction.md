@@ -5,7 +5,7 @@ title: "Introduction"
 # 1. Introduction
 Effortless Admin ("EA") is an administrator of employee benefit plans for Canadian employers of all sizes. EA focuses on pairing powerful software with great people to eliminate administration headaches and give their clients a competitive advantage. They also empower Canadian insurance brokers with a suite of state-of-the-art consulting tools that gives their broker partners the control and insight they need to effectively keep their fingers on the pulse of a plan's performance.
 
-For more information about EA and their value proposition, please visit [www.effortlessadmin.com](https://www.effortlessadmin.com).
+For more information about EA and their value proposition, please visit [www.effortlessadmin.com](https://www.effortlessadmin.com)
 
 EA is committed to ensuring the confidentiality, privacy, integrity, and availability of all electronic protected health information (ePHI) it receives, maintains, processes and/or transmits on behalf of its Customers. As providers of compliant, hosted infrastructure used by employers and Third Party Administrators (TPAs), EA strives to maintain compliance, proactively address information security, mitigate risk for its Customers, and ensure known breaches are completely and effectively communicated in a timely manner. The following addresses core policies used by EA to maintain compliance and assure the proper protections of infrastructure used to store, process, and transmit ePHI for EA Customers.
 
