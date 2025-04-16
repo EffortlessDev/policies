@@ -3,8 +3,8 @@ title: "ISMS"
 sitemap: false
 ---
 
-Loading...
+Redirecting to trust center...
 
 <script type="text/javascript">
-    window.location.replace("{{ site.baseurl }}/chapters/01-introduction")
+    window.location.replace("{{ site.replacement_url }}")
 </script>

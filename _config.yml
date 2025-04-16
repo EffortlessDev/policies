@@ -6,31 +6,11 @@ keywords: Security, Compliance, Software, Infrastructure, Documentation
 production_url: "https://effortlessdev.github.io/policies/"
 git_url: "https://github.com/EffortlessDev/policies"
 
-# Privacy officer
-po_name: "Michael Ross"
-po_email: privacy_officer@effortlessadmin.com
-
-# Security officer
-so_name: "David Reid"
-so_email: security_officer@effortlessadmin.com
-
-# President & CEO
-president_name: "David Ross"
-president_email: dross@effortlessadmin.com
-
-# CTO
-cto_name: "David Reid"
-cto_email: dreid@effortlessadmin.com
-
-# Generic emails
-compliance_reports_email: compliance_reports@effortlessadmin.com
-security_email: privacy@effortlessadmin.com
-password_reset_email: password_reset@effortlessadmin.com
-
 # Serving
 baseurl: "/policies"
 url: "https://effortlessdev.github.io"
 redirects: yes
+replacement_url: "https://trust.effortlessadmin.com"
 
 # Conversion
 markdown: kramdown
